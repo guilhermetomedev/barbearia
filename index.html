@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/main.css">
+    <link rel="stylesheet" href="estilos/media.css">
+    <script src="https://kit.fontawesome.com/fd249ef772.js" crossorigin="anonymous"></script>
+    <title>Cutznix</title>
+</head>
+<body>
+    <header>
+        <nav class="navredessociais">
+            
+            <ul>
+                <li class="dadosloja">(+62)21-2002-2012</li>
+                <li class="dadosloja">Mon - Fri : 09.00-20.00</li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-wifi"></i></a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="containernavegacao">
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+
+            <nav class="navmenu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="botaomenu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav class="colunanavbar">
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                    <li><a href="#">Item 4</a></li>
+                    <li><a href="#">Item 5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="introdutorio">
+            <div id="videobackground">
+                <video autoplay muted loop playsinline>
+                    <source src="midias/videos/4178140-hd_1920_1080_30fps.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="tituloprincipal">
+                <div class="conteudocurto">
+                    <span></span><!--barra amarela-->
+                    <p>Est. 1997</p>
+                </div>
+                <h1>We don't just cut hair, We create experiences</h1>
+                <p>Dictumst dapibus id suscipit felis at risus dictum est ipsum erat magnis. Aliquet magnis suscipit platea nec erat.</p>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="botao">See Our Services</a>
+            </div>
+        </section>
+        <section id="sobrenos">
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    
+        let botaoMenu = document.querySelector('.botaomenu i')
+        let navBar = document.querySelector('.colunanavbar')
+        
+        botaoMenu.addEventListener('click', function() {
+            
+            if (navBar.style.display === 'none' || navBar.style.display === '') {
+
+                navBar.style.display = 'flex'
+
+            } else {
+                navBar.style.display = 'none'
+            }
+        })
+    </script>
+</body>
+</html>

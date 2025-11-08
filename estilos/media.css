@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px){
+
+    header {
+        min-height: 12dvh;
+    }
+
+    header > hr {
+        max-width: 50vw;
+    }
+
+    div.containernavegacao {
+        width: 900px;
+        margin: auto;
+    }
+
+
+    section#introdutorio {
+        min-height: 80vh;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    #videobackground {
+    position: absolute;  
+    top: 12%;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    z-index: 0;
+
+    }
+
+    #videobackground > video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    div.tituloprincipal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -50%);
+       background-color: #1a1a1a2c;
+    border-radius: 5px;
+    }
+    
+
+}
